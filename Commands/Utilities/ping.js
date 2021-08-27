@@ -8,8 +8,8 @@ module.exports = {
     cooldown: 5,
     execute(message, args, commandName, client, Discord) {
         const embed = new MessageEmbed()
-        .setColor('NOT_QUITE_BLACK')
+        .setColor('LUMINOUS_VIVID_PINK')
         .setDescription(`Pong: ${client.ws.ping}ms`)
-        message.channel.send({embeds: [embed]})
+        message.reply({embeds: [embed]})
     }
 }
