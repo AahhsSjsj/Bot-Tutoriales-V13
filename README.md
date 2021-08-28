@@ -118,7 +118,7 @@ client.on("messageCreate", async message => {
 
 <div align="left"><img src="/assets/token-bot-tutoriales.gif">
 
-# 💨 Ejecuta los proyectos
+# 💨 Ejecuta El Proyecto En
 
 ### **Glitch:** 
 [![Remix en Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/Jennifer7w7/Bot-Tutoriales-V13)
@@ -138,6 +138,19 @@ client.on("messageCreate", async message => {
 * [Visual Studio Code](https://code.visualstudio.com/download)
 * [Repositorio Bot-Tutoriales V12](https://github.con/Jennifer7w7/Bot-Tutoriales)
 * [Mi Server De Discord](https://dsc.gg/ts-community)
+
+### 🔗 Links De La Paginas Para Ejecutar El Proyecto
+
+* [Heroku](https://heroku.com)
+* [Replit](https://replit.com)
+* [Glitch](https://glitch.com)
+* [Logearte En Glitch](https://glitch.com/signup)
+* [Logearte En Replit](https://replit.com/login)
+* [Logearte En Heroku](https://id.heroku.com/login)
+* [Registrate En Glitch](https://glitch.com/signin)
+* [Registrate En Replit](https://replit.com/signup)
+* [Registrate En Heroku](https://signup.heroku.com)
+
 
 ### 🔗 Links Discord.js:
 
