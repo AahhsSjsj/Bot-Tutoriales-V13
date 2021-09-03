@@ -47,24 +47,24 @@
 
 ```
 
-```text
+```javascript
 Despues de Esto Pones "npm init -y"
 y lo ultimo:
 ```
 ```javascript
-npm install
+npm install o Dandole Click a "install-packages.bat"
 ```
 **Para Instalar Los Npms!**
 # Despues Debes Irte Donde el archivo config.json y Pones esto!
 
-  ```javascript
+  ```json
   {
     "token": "Tu Token - Aqui Lo Podes Copiar Tu Token: https://discord.com/developers/applications/clientid/bot",
     "prefix": "Tu Prefix"
   }
   ```
 
-#### Ejemplos
+# Ejemplos
 
 **npm install discord.js Package Aqui: [**Click Aqui**](https://github.com/Jennifer7w7/Bot-Tutoriales-V13#package)- lo definimos abajo esta para hacer el bot 😅**
 
@@ -110,13 +110,18 @@ client.on("messageCreate", async message => {
  
 
  
- client.login(token);
+ client.login(token); //No Hacer C&P(Copy and Paste) por que esto puede tener errores ❌
 
 ```
 
 # ⁉ No Sabes Como Copiar Tu Token? Sencillo Aqui Lo Podes Ver uwu:
 
 <div align="left"><img src="/assets/token-bot-tutoriales.gif">
+
+# 👀 Iniciar Proyecto
+```javascript
+node . o dale click en "start.bat"
+```
 
 # 💨 Ejecuta El Proyecto En
 
@@ -127,7 +132,7 @@ client.on("messageCreate", async message => {
 ### **Heroku:** 
 [![Desplegar](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jennifer7w7/Bot-Tutoriales-V13)
 
-### 🔗Links
+# 🔗Links
 
 * [Web De Discord.js](https://discord.js.org/#/)
 * [Documentation Discord.js](https://discord.js.org/#/docs/main/stable/general/welcome)
