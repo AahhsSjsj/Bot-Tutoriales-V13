@@ -1,8 +1,47 @@
 <p align="center">Bot Tutoriales :heart: </p>
 
+# 🌐 Descargar Las Cosas Necesarias
+
+#### **Node v16.8.0**
+
+* **[Click Aqui Para Descargar](https://nodejs.org/dist/v16.8.0/node-v16.8.0-x64.msi)**
+
+#### **Visual Studio Code**
+
+* **[Click Aqui Para Descargar](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)**
+
+#### **💘 Descarga Las Tres Cosas Para Usar El Host De Heroku**
+
+#### **Heroku App**
+
+* **[Click Aqui Para Descargar](https://cli-assets.heroku.com/heroku-x64.exe)**
+
+#### **Visual Studio Code App**
+
+* **[Click Aqui Para Descargar](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)** **| O Solo Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales-V13#visual-studio-code)**
+
+#### **Git App**
+
+* **[Click Aqui Para Descargar](https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe)**
+
+```markdown
+Esto Es Todo Para El Host De Heroku Para tu Bot | No Sabes Como Hostearlo? Solo Anda A Las Docs De Heroku Darle Click Aqui:
+``` 
+**[Click Aqui Para Ver Las Docs De Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)** 
+```markdown
+PD: Muy Pronto Video De Esto OwO
+```
+
+
+# ❗ Requisitos ❗
+
+* [Node.js 16.8.0](https://nodejs.org/en/download/current/)
+* [discord.js@13.1.0](https://www.npmjs.com/package/discord.js/v/13.1.0)
+
+**O Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales-V13#-descargar-las-cosas-necesarias) Para llevarte A Descargar Mas Rapido Node.Js o tambien visual studio code o si no puedes editar en Replit - Glitch - Heroku PD: Heroku es un host lo puedes editar tu proyecto con Visual Studio Code para eso necesita Git - Heroku App - Node.JS Y Para Descargar Esto Tres Dale Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales-V13#-descargar-las-cosas-necesarias)**
 # Instalación
 
-**Se requiere Node.JS v16.6.1 o más reciente**
+**Se requiere Node.JS v16.8.0 o más reciente**
 
 **Primero Es El Package que es este uwu:**
 
@@ -10,7 +49,7 @@
 
 ```json
 {
-  "name": "discord-botv13",
+  "name": "Bot-Tutoriales-V13",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -116,7 +155,7 @@ client.on("messageCreate", async message => {
 
 # ⁉ No Sabes Como Copiar Tu Token? Sencillo Aqui Lo Podes Ver uwu:
 
-<div align="left"><img src="/assets/token-bot-tutoriales.gif">
+<div align="left"><img src="/assets/token-Bot-Tutoriales-V13.gif">
 
 # 👀 Iniciar Proyecto
 ```javascript
@@ -141,7 +180,7 @@ node . o dale click en "start.bat"
 * [Discord Server](https://discord.gg/TvBXwYbW4y)
 * [Node.js v16](https://nodejs.org/es/download/current/)
 * [Visual Studio Code](https://code.visualstudio.com/download)
-* [Repositorio Bot-Tutoriales V12](https://github.con/Jennifer7w7/Bot-Tutoriales)
+* [Repositorio Bot-Tutoriales-V13 V12](https://github.con/Jennifer7w7/Bot-Tutoriales-V13)
 * [Mi Server De Discord](https://dsc.gg/ts-community)
 
 ### 🔗 Links De La Paginas Para Ejecutar El Proyecto
