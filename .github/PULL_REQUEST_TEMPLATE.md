@@ -1,7 +1,5 @@
 **Describa los cambios que realiza este RP y por qué debería fusionarse:**
 
-
-
 **Estado y clasificación de versiones:**
 
 <!--
