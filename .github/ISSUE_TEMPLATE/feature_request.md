@@ -3,7 +3,7 @@
 name: Feature request
 about: Solicitar una función para Repositorio Del Bot
 title: ''
-labels: 'type: enhancement'
+labels: 'enhancement'
 assignees: ''
 ---
 <!-- Use Discord para preguntas: https://dsc.gg/ts-communityy-->
