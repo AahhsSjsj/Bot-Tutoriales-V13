@@ -155,7 +155,7 @@ client.on("messageCreate", async message => {
 
 # ⁉ No Sabes Como Copiar Tu Token? Sencillo Aqui Lo Podes Ver uwu:
 
-<div align="left"><img src="/assets/token-Bot-Tutoriales-V13.gif">
+<div align="left"><img src="/assets/token-bot-tutoriales.gif">
 
 # 👀 Iniciar Proyecto
 ```javascript
