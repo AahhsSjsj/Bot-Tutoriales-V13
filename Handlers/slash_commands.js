@@ -43,7 +43,7 @@ readdirSync('./slashCommands').forEach(async (dir) => {
                         run: file.run
                     });
 
-                    await client.guilds.cache.get('853764218607370251').commands.create(data)
+                    await client.guilds.cache.get('ID GUILD').commands.create(data)
                 }, 2500);
 
                 
