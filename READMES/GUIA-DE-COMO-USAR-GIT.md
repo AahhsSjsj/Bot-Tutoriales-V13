@@ -92,6 +92,7 @@ Git-Guia-AahhsSjsj
 
 ```MarkDown
 ╔══╦═════════════╦══╦══╦══╦══╦══╦══╦═════════════════════════════════════════════════════════════════════════════════════════════║  ║     Nota    ║  ║ Dado que Git puede leer el mismo valor de variable de configuración de más de un archivo, es posible que      ║  ║             ║  ║ tenga un valor inesperado para uno de estos valores y no sepa por qué. En casos como ese, puede consultar a    ║  ║             ║  ║ Git sobre el origen de ese valor, y le dirá qué archivo de configuración tuvo la última palabra en la          ║  ║             ║  ║ configuración de ese valor:
+╠══╬═════════════╬══╬══╬══╬══╬══╬══╬═════════════════════════════════════════════════════════════════════════════════════
 ```
 ```powershell
 $ git config --show-origin rerere.autoUpdate file:/home/johndoe/.gitconfig	false
