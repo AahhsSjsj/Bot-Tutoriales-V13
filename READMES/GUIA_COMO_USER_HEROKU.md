@@ -18,8 +18,8 @@
 
 # **Descargar e instalar**
 **⚠ La CLI de Heroku requiere Git, el popular sistema de control de versiones. Si aún no tiene Git instalado, complete lo siguiente antes de instalar la CLI:**
-* **[Git installation]()**
-* **[First-time Git setup]()**
+* **[Git installation](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/1.5-Getting-Started%20-%20Installing-Git.md)**
+* **[First-time Git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)**
 
 ☢ **Actualmente, los instaladores de Windows pueden mostrar una advertencia titulada "Windows protegió su PC". Para ejecutar la instalación cuando se muestra esta advertencia, haga clic en "Más información", verifique el editor como "salesforce.com, inc", luego haga clic en el botón "Ejecutar de todos modos".**
 
