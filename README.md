@@ -161,8 +161,90 @@ client.on("messageCreate", async message => {
 ```javascript
 node . o dale click en "start.bat"
 ```
+# 😀 Guia De Como Hostear Tu Bot En Heroku
 
-# 💨 Ejecuta El Proyecto En
+# 🧪 The Heroku CLI
+
+### 😎 Tabla de contenido
+
+* **[Descargar e instalar]()**
+* **[Otros métodos de instalación]()**
+* **[Verificando su instalación]()**
+* **[Empezando]()**
+* **[Mantenerse al día]()**
+* **[Complementos útiles de CLI]()**
+* **[Arquitectura CLI]()**
+* **[Solución de problemas]()**
+* **[Desinstalación de la CLI de Heroku]()**
+
+### **La interfaz de línea de comandos de Heroku (CLI) facilita la creación y administración de sus aplicaciones de Heroku directamente desde el terminal. Es una parte esencial del uso de Heroku.**
+
+# **Descargar e instalar**
+**⚠ La CLI de Heroku requiere Git, el popular sistema de control de versiones. Si aún no tiene Git instalado, complete lo siguiente antes de instalar la CLI:**
+* **[Git installation]()**
+* **[First-time Git setup]()**
+
+☢ **Actualmente, los instaladores de Windows pueden mostrar una advertencia titulada "Windows protegió su PC". Para ejecutar la instalación cuando se muestra esta advertencia, haga clic en "Más información", verifique el editor como "salesforce.com, inc", luego haga clic en el botón "Ejecutar de todos modos".**
+
+# **🍎 macOS**
+
+```powershell
+$ brew tap heroku/brew && brew install heroku
+```
+
+# **💣 Windows**
+
+**Descargue el instalador apropiado para su instalación de Windows:**
+
+## **<a href="https://cli-assets.heroku.com/heroku-x64.exe" class="btn btn-primary">64-bit installer</a>**
+
+## **<a href="https://cli-assets.heroku.com/heroku-x86.exe" class="btn btn-primary">32-bit installer</a>**
+
+
+# **⚔ Ubuntu 16+**
+
+**Ejecute lo siguiente desde su terminal:**
+
+```powershell
+$ sudo snap install --classic heroku
+```
+
+<a href="https://snapcraft.io/">Snap también está disponible en otros sistemas operativos Linux.</a>
+
+# **Otros métodos de instalación**
+
+## **Instalación autónoma**
+**La instalación independiente es un simple tarball con un binario. Contiene su propio binario node.js y se actualizará automáticamente como los métodos de instalación anteriores.**
+
+**Para configurar rápidamente en <code>/usr/local/lib/heroku</code> y <code>/usr/local/bin/heroku</code>, ejecute este script (el script requiere sudo y no es compatible con Windows):**
+
+<pre class=" language-term">
+<code class=" language-term">
+<span class='token input'> <span class='token prompt'>$ </span> curl https://cli-assets.heroku.com/install.sh | sh  
+    </span>
+  </code>
+</pre>
+
+**De lo contrario, descargue uno de los archivos comprimidos a continuación y extráigalo usted mismo.**
+
+## **Tarballs**
+**Están disponibles en compresión <code>gz</code> o <code>xz</code>. <code>xz</code> es mucho más pequeño pero <code>gz</code> es más compatible.**
+
+* **[macOS](https://cli-assets.heroku.com/heroku-darwin-x64.tar.gz)**
+* **[Linux (x64)](https://cli-assets.heroku.com/heroku-linux-x64.tar.gz)**
+* **[Linux (arm)](https://cli-assets.heroku.com/heroku-linux-arm.tar.gz)**
+* **[Windows (x64)](https://cli-assets.heroku.com/heroku-win32-x64.tar.gz)**
+* **[Windows (x86)](https://cli-assets.heroku.com/heroku-win32-x86.tar.gz)**
+
+## **Ubuntu / Debian apt-get**
+<pre class=" language-term">
+<code class=" language-term">
+<span class='token input'> <span class='token prompt'>$ </span> curl https://cli-assets.heroku.com/install-ubuntu.sh | sh </span>
+  </code>
+</pre>
+
+## **MAÑANA YA MISMO TERMINADO!**
+# **💨 Ejecuta El Proyecto En**
 
 ### **Glitch:** 
 [![Remix en Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/AahhsSjsj/Bot-Tutoriales-V13)
@@ -171,7 +253,7 @@ node . o dale click en "start.bat"
 ### **Heroku:** 
 [![Desplegar](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AahhsSjsj/Bot-Tutoriales-V13)
 
-# 🔗Links
+# **🔗Links**
 
 * [Web De Discord.js](https://discord.js.org/#/)
 * [Documentation Discord.js](https://discord.js.org/#/docs/main/stable/general/welcome)
@@ -183,7 +265,7 @@ node . o dale click en "start.bat"
 * [Repositorio Bot-Tutoriales-V13 V12](https://github.con/AahhsSjsj/Bot-Tutoriales-V13)
 * [Mi Server De Discord](https://dsc.gg/ts-community)
 
-### 🔗 Links De La Paginas Para Ejecutar El Proyecto
+### **🔗 Links De La Paginas Para Ejecutar El Proyecto**
 
 * [Heroku](https://heroku.com)
 * [Replit](https://replit.com)
@@ -196,7 +278,7 @@ node . o dale click en "start.bat"
 * [Registrate En Heroku](https://signup.heroku.com)
 
 
-### 🔗 Links Discord.js:
+### **🔗 Links Discord.js:**
 
 * [Website](https://discord.js.org/) ([source](https://github.com/discordjs/website))
 * [Documentation](https://discord.js.org/#/docs/main/master/general/welcome)
@@ -208,6 +290,8 @@ node . o dale click en "start.bat"
 * [NPM](https://www.npmjs.com/package/discord.js)
 * [Bibliotecas relacionadas](https://discord.com/developers/docs/topics/community-resources#libraries)
 
- ### Extensions
+ ### **Extensions**
 
 * [RPC](https://www.npmjs.com/package/discord-rpc) ([source](https://github.com/discordjs/RPC))
+
+
