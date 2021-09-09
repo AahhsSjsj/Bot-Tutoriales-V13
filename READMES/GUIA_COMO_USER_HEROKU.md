@@ -92,7 +92,7 @@ $ sudo snap install --classic heroku
 </pre>
 
 ## **npm**
-**La CLI está construida con Node.js y se puede instalar a través de <code>npm.</code> Este es un método de instalación manual que se puede usar en entornos donde la actualización automática no es ideal o donde Heroku no ofrece un binario Node.js prediseñado.
+**La CLI está construida con Node.js y se puede instalar a través de <code>npm.</code> Este es un método de instalación manual que se puede usar en entornos donde la actualización automática no es ideal o donde Heroku no ofrece un binario Node.js prediseñado.**
 
 # **Nota De Advertencia ⚠**
 **Se recomienda encarecidamente utilizar uno de los otros métodos de instalación si es posible.**
