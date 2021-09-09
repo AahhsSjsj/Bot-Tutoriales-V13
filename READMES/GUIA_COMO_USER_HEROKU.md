@@ -4,15 +4,15 @@
 
 ### 😎 Tabla de contenido
 
-* **[Descargar e instalar]()**
-* **[Otros métodos de instalación]()**
-* **[Verificando su instalación]()**
-* **[Empezando]()**
-* **[Mantenerse al día]()**
-* **[Complementos útiles de CLI]()**
-* **[Arquitectura CLI]()**
-* **[Solución de problemas]()**
-* **[Desinstalación de la CLI de Heroku]()**
+* **[Descargar e instalar](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md#descargar-e-instalar)**
+* **[Otros métodos de instalación](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md#otros-métodos-de-instalación)**
+* **[Verificando su instalación](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md#verificando-su-instalación)**
+* **[Empezando](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md#-empezando-usar-heroku-para-tu-bot)**
+* **[Mantenerse al día](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md#mantenerse-al-día)**
+* **[Complementos útiles de CLI](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md#complementos-útiles-de-cli)**
+* **[Arquitectura CLI](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md#arquitectura-cli)**
+* **[Solución de problemas](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md#solución-de-problemas)**
+* **[Desinstalación de la CLI de Heroku](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md#desinstalación-de-la-cli-de-heroku)**
 
 ### **La interfaz de línea de comandos de Heroku (CLI) facilita la creación y administración de sus aplicaciones de Heroku directamente desde el terminal. Es una parte esencial del uso de Heroku.**
 
