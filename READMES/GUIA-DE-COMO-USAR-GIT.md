@@ -96,3 +96,5 @@ Git-Guia-AahhsSjsj
 ```powershell
 $ git config --show-origin rerere.autoUpdate file:/home/johndoe/.gitconfig	false
 ```
+**GRAX POR VER ESTA MINI GUIA LO PUEDES VER MAS EN SU PAGINA OFFICIAL [CLICK AQUI](https://git-scm.com)**
+**O SU DOCUMENTACION: [https://git-scm.com/doc]**
