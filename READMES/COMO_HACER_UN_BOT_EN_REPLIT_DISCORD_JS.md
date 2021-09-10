@@ -26,7 +26,7 @@ npm init -y && npm i --save-dev node@16.6.1
 }
 ```
 # **Source: [Click Aqui](https://replit.com/talk/learn/Nodejs-14-on-replit/85501 )**
-### **Creador: Leoua#0072 REDES SOCIALES: [GITHUB](https://github.com/Leoxyzua)**
+### **Creador: Leoua REDES SOCIALES: [GITHUB](https://github.com/Leoxyzua)**
 
 # **EJEMPLOS DE LOS TRES PASOS:**
 
