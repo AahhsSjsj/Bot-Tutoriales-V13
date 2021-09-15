@@ -116,6 +116,6 @@ client.on("messageCreate", async message => {
 
 # ⁉ No Sabes Como Copiar Tu Token? Sencillo Aqui Lo Podes Ver uwu:
 
-<div align="left"><img src="https://github.com/Jennifer7w7/Bot-Tutoriales-V13/blob/main/assets/token-bot-tutoriales.gif?raw=true">
+<div align="left"><img src="https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/assets/token-bot-tutoriales.gif?raw=true">
 
-Mas Informacion: https://github.com/Jennifer7w7/Bot-Tutoriales-V13#-ejecuta-los-proyectos
+Mas Informacion: https://github.com/AahhsSjsj/Bot-Tutoriales-V13#-ejecuta-los-proyectos
