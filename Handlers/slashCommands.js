@@ -24,12 +24,12 @@ module.exports = async (client) => {
         arrayOfSlashCommands.push(file);
     });
     client.on("ready", async () => {
-        // Registrarse para un solo server
+        // Registrarse los slash para un solo server
         await client.guilds.cache
             .get("890703786358759506")
             .commands.set(arrayOfSlashCommands);
 
-        // Register para todos los servers en los que está el bot
+        // Register los slash para todos los servers en los que está el bot :)
         // await client.application.commands.set(arrayOfSlashCommands);
     });
 };
