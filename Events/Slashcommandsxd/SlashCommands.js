@@ -1,7 +1,7 @@
 const client = require("../../index");
 
 client.on("interactionCreate", async (interaction) => {
-    // Slash Command Handling
+    // Slash Command Handler :)
     if (interaction.isCommand()) {
         await interaction.deferReply({ ephemeral: false }).catch(() => {});
 
@@ -24,10 +24,10 @@ client.on("interactionCreate", async (interaction) => {
         cmd.run(client, interaction, args);
     }
 
-    // Context Menu Handling
+    // Context Menu Handler
     if (interaction.isContextMenu()) {
         await interaction.deferReply({ ephemeral: true });
         const command = client.slashCommands.get(interaction.commandName);
-        if (command) command.run(client, interaction);
+        if (command) command.run(client, interaction, args);
     }
 });
