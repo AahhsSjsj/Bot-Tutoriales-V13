@@ -88,4 +88,4 @@ module.exports = {
       return interaction.followUp({ embeds: [embed2] })
     }
   },
-};
+}; //Bueno todo es mio pero se bugeo github asi que n.n
