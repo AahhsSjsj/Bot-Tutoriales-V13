@@ -13,7 +13,7 @@ module.exports = {
   options: [
     {
       name: "texto",
-      description: "Repite tu mensaje uwu",
+      description: "Repite tu mensaje",
       type: 3,
       required: true,
     },
