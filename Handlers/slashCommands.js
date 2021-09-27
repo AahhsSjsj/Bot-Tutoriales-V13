@@ -26,7 +26,7 @@ module.exports = async (client) => {
     client.on("ready", async () => {
         // Registrarse los slash para un solo server
         await client.guilds.cache
-            .get("890703786358759506")
+            .get("ID GUILD")
             .commands.set(arrayOfSlashCommands);
 
         // Register los slash para todos los servers en los que está el bot :)
