@@ -7,11 +7,10 @@ module.exports = {
      * @param {Client} client
      * @param {Message} message
      */
-    async execute(message, client, Discord) {
+   run: async(message, client, Discord) => {
         if (!message.content.startsWith(prefix) || message.author.bot) return;
 
         const args = message.content.slice(prefix.length).trim().split(/ +/g);
-        //Corte el video ya regreso ya completo esto ya que se va mucho el tiempo :)
         const commandName = args.shift().toLowerCase();
         const command = client.commands.get(commandName) ||
         client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName))
@@ -62,7 +61,7 @@ module.exports = {
         setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
 
         try {
-            command.execute(message, args, commandName, client, Discord);
+            command.run(message, args, commandName, client, Discord);
         } catch (error) {
             console.log(error);
             const ErrorEmbed = new MessageEmbed()
