@@ -6,10 +6,10 @@ module.exports = {
     permissions: 'MANAGE_CHANNELS',
     description: "Pong!",
     cooldown: 5,
-    execute(message, args, commandName, client, Discord) {
+    run: async(message, args, commandName, client, Discord) => {
         const embed = new MessageEmbed()
         .setColor('LUMINOUS_VIVID_PINK')
         .setDescription(`Pong: ${client.ws.ping}ms`)
-        message.reply({embeds: [embed]})
+        message.reply({ embeds: [embed] })
     }
 }
