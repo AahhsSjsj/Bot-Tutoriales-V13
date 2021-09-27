@@ -69,5 +69,5 @@ module.exports = {
             .setDescription(`Se produjo un error al intentar ejecutar este comando, consulte la consola para obtener más detalles`)
             message.channel.send({embeds: [ErrorEmbed]});
         };
-    } //Volvi Bueno esto es x
+    }
 };
