@@ -1,15 +1,9 @@
-const {
-  MessageButton,
-  MessageActionRow,
-  MessageEmbed,
-  Interaction,
-  CommandInteraction
-} = require("discord.js");
+const { Client, CommandInteraction } = require("discord.js");
 
 module.exports = {
   name: "say",
   description: "say",
-  type: "CHAT_INPUT",
+  //permission: "SEND_MESSAGES",
   options: [
     {
       name: "texto",
@@ -22,13 +16,12 @@ module.exports = {
    *
    * @param {Client} client
    * @param {CommandInteraction} interaction
-   * @param {String[]} args
    */
-  run: async (client, interaction, args) => {
+  run: async (interaction, client) => {
     try {
       await interaction.deferReply().catch((err) => {});
 
-      const say = interaction.options.getString("texto")
+      const say = interaction.options.getString("texto");
 
       await interaction.editReply({ content: "Enviando..." });
       await interaction.deleteReply();

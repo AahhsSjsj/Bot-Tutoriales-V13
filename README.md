@@ -157,10 +157,47 @@ client.on("messageCreate", async message => {
 
 <div align="left"><img src="/assets/token-bot-tutoriales.gif">
 
+
+# **.env en replit**
+## **Hola Este Es Una Pequeña Guia Para Poner Un Secret EN Un Bot De Discord(discord.js) Comenzemos**
+
+### **Primer Paso Irte A Tu Proyecto Y Anda A Secrets:**
+
+<img src="/assets/Cfd6e8w.png" align="center">
+
+### **Segundo Paso Creas Un Nuevo Secret**
+**Primero Debes Irte Al Developer Portal , En Bot y Copias Tu Token Link: [Click Aqui](https://discord.com/developers/applications/clientID/bot)**
+<img src="/assets/bbZjOd3UmW.gif" align="center">
+
+**Ya Despues Debes Irte A Tu Proyecto De Replit Y Crear TU Nuevo Secret!**
+<img src="/assets/hEdEKhVCly.gif" align="center">
+
+### **Ultimo Paso Definir Tu Token Con Este Proyecto!**
+**Debes Irte A Tu index.js o app.js ect y poner esto:**
+```js
+const token  = process.env['mySecret']
+```
+<img src="/assets/KICrBhByNh.gif" align="center">
+
+### **Ya Estaria!**
+
 # 👀 Iniciar Proyecto
 ```javascript
 node . o dale click en "start.bat"
 ```
+**Si Estas En Replit Primero Pon En Tu Consola o Shell Esto:**
+```yml
+npm run nodev16
+```
+**Y Despues Poner En Tu Consola o Shell Esto**
+```yml
+npm start
+```
+**O Darle Al Button "Run"**
+<img src="/assets/smbbPzaX65.gif" align="center">
+
+**Eso Y Ya Estaria Tu Bot De Discord Disfruta Tu Bot <3!**
+
 # **💨 Ejecuta El Proyecto En**
 
 ### **Glitch:** 
@@ -179,7 +216,8 @@ node . o dale click en "start.bat"
 * [Discord Server](https://discord.gg/TvBXwYbW4y)
 * [Node.js v16](https://nodejs.org/es/download/current/)
 * [Visual Studio Code](https://code.visualstudio.com/download)
-* [Repositorio Bot-Tutoriales-V13 V12](https://github.con/AahhsSjsj/Bot-Tutoriales-V13)
+* [Repositorio Bot-Tutoriales-V12](https://github.con/AahhsSjsj/Bot-Tutoriales-V12)
+* [Repositorio Team LoveBott: Bot-Discord-V13](https://github.com/Lovebott/Bot-Discord-V13)
 * [Mi Server De Discord](https://dsc.gg/ts-community)
 
 ### **🔗 Links De La Paginas Para Ejecutar El Proyecto**

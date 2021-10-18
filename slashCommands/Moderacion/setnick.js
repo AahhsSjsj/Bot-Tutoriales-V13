@@ -1,12 +1,9 @@
-const {
-  MessageEmbed,
-  Interaction,
-  CommandInteraction,
-} = require("discord.js");
+const { MessageEmbed, Client, CommandInteraction } = require("discord.js");
 
 module.exports = {
   name: "setnick",
   description: "Establece un apodo para el usuario",
+  permission: "MANAGE_NICKNAMES",
   options: [
     {
       name: "usuario",
@@ -15,7 +12,7 @@ module.exports = {
       required: true,
     },
     {
-      name: "setapodo",
+      name: "apodo",
       description: "Pon un texto para cambiarle el apodo al user",
       type: 3,
       required: true,
@@ -25,12 +22,11 @@ module.exports = {
    *
    * @param {Client} client
    * @param {CommandInteraction} interaction
-   * @param {String[]} args
    */
-  run: async (client, interaction, args) => {
+  run: async (interaction, client) => {
     try {
-      const user = args.find((x) => x.name === "usuario");
-      const nickname = args.find((x) => x.name === "setapodo");
+      const user = interaction.options.getUser("usuario");
+      const nickname = interaction.options.getString("apodo");
 
       const embed = new MessageEmbed().setColor("RANDOM");
 
@@ -45,16 +41,16 @@ module.exports = {
         ? user.member.nickname
         : user.member.user.username;
 
-      await user.member.setNickname(nickname.value);
+      await user.member.setNickname(nickname);
 
       embed
         .setDescription(
           `:white_check_mark: ${user.member.toString()}'s Nick Cambiado`
         )
-        .setFooter(`De ${oldNick} a ${nickname.value}`);
+        .setFooter(`De ${oldNick} a ${nickname}`);
       await interaction.followUp({ embeds: [embed] });
     } catch (err) {
-      console.log("Algo salió mal =>", err);
+      console.log("Algo salió mal En La Consola =>", err);
     }
   },
 };

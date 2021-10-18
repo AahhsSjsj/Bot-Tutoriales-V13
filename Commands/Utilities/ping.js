@@ -1,15 +1,21 @@
-const { MessageEmbed } = require('discord.js')
+const { Client, Message, MessageEmbed } = require("discord.js");
 
 module.exports = {
-    name: "ping",
-    aliases: ['pong'],
-    permissions: 'MANAGE_CHANNELS',
-    description: "Pong!",
-    cooldown: 5,
-    run: async(message, args, commandName, client, Discord) => {
-        const embed = new MessageEmbed()
-        .setColor('LUMINOUS_VIVID_PINK')
-        .setDescription(`Pong: ${client.ws.ping}ms`)
-        message.reply({ embeds: [embed] })
-    }
-}
+  name: "ping",
+  aliases: ["pong"],
+  permissions: "SEND_MESSAGES",
+  description: "Pong!",
+  cooldown: 5,
+  /**
+   *
+   * @param {Client} client
+   * @param {Message} message
+   * @param {String[]} args
+   */
+  run: async (client, message, args) => {
+    const embed = new MessageEmbed()
+      .setColor("RANDOM")
+      .setDescription(`Mi Ping Es: ${client.ws.ping}ms 🏓 Pong!`);
+    await message.reply({ embeds: [embed] });
+  },
+};
