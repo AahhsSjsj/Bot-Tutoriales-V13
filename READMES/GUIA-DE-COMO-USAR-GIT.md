@@ -2,7 +2,7 @@
 
 ## **1.6 Introducción: configuración de Git por primera vez**
 
-### **Configuración de Git por primera vez**
+### **Configuración de Git por primera vez** 
 
 **Ahora que tiene Git en su sistema, querrá hacer algunas cosas para personalizar su entorno de Git. Debería tener que hacer estas cosas solo una vez en una computadora determinada; se quedarán entre las actualizaciones. También puede cambiarlos en cualquier momento volviendo a ejecutar los comandos.**
 **Git viene con una herramienta llamada `git config` que le permite obtener y establecer variables de configuración que controlan todos los aspectos de cómo se ve y funciona Git. Estas variables se pueden almacenar en tres lugares diferentes:**
