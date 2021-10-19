@@ -1,7 +1,0 @@
-{
-  "token": "Tu Token - Aqui Lo Podes Copiar Tu Token: https://discord.com/developers/applications/clientid/bot",
-  "prefix": "Tu Prefix",
-  "ownerTag": "Owner Tag",
-  "MongooseURL": "Mongoose Server URL",
-  "OwnersIDS": ["OwnerID1", "OwnerID2", "OwnerID3"]
-}
