@@ -247,12 +247,10 @@ npm start
 * [Documentation Discord.js](https://discord.js.org/#/docs/main/stable/general/welcome)
 * [Discord.js Server](https://discord.com/invite/bRCvFy9)
 * [Github](https://github.com/AahhsSjsj)
-* [Discord Server](https://discord.gg/TvBXwYbW4y)
 * [Node.js v16](https://nodejs.org/es/download/current/)
 * [Visual Studio Code](https://code.visualstudio.com/download)
 * [Repositorio Bot-Tutoriales-V12](https://github.con/AahhsSjsj/Bot-Tutoriales-V12)
 * [Repositorio Team LoveBott: Bot-Discord-V13](https://github.com/Lovebott/Bot-Discord-V13)
-* [Mi Server De Discord](https://dsc.gg/ts-community)
 
 ### **🔗 Links De La Paginas Para Ejecutar El Proyecto**
 
@@ -266,7 +264,6 @@ npm start
 * [Registrate En Replit](https://replit.com/signup)
 * [Registrate En Heroku](https://signup.heroku.com)
 
-
 ### **🔗 Links Discord.js:**
 
 * [Website](https://discord.js.org/) ([source](https://github.com/discordjs/website))
@@ -279,8 +276,6 @@ npm start
 * [NPM](https://www.npmjs.com/package/discord.js)
 * [Bibliotecas relacionadas](https://discord.com/developers/docs/topics/community-resources#libraries)
 
- ### **Extensions**
+### **Extensions**
 
 * [RPC](https://www.npmjs.com/package/discord-rpc) ([source](https://github.com/discordjs/RPC))
-
-
