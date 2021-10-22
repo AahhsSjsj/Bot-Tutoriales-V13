@@ -1,4 +1,4 @@
-# 😀 Guia De Como Hostear Tu Bot En Heroku
+# 😀 Guia De Como Hostear Tu Bot En Heroku y Algo Mas!
 
 # 🧪 The Heroku CLI
 

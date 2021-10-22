@@ -2,7 +2,7 @@
 **Esta Pequeña Guia Es Para Las Person@s Que No Saben Hacer Un Bot De Discord.js (v13) LA Nueva Version De discord.js y eso Se Necesita la v16 de Node.js Abajo Veras los pasos o guia bye.**
 
 ## **Crear Un Proyecto**
-**Dale Al Boton "+" y te va A Salir Opciones Para Crear tu Eliges Node.JS para nuestro Bot De Discord**
+**Dale Al Boton "+" y te va A Salir Opciones Para Crear tu Eliges El Lenguaje Node.JS para nuestro Bot De Discord**
 **EJEMPLO:**
 <div aling="center"><img src="https://i.imgur.com/2F7TyTs.gif">
 

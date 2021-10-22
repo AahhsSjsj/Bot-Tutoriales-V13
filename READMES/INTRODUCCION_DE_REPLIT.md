@@ -11,7 +11,7 @@
 * **Teaching tools (e.g. Canva, Moodle, Blackboard)**
 * **Learning tools (e.g. Codecademy, Coursera, Udemy, Udacity)**
 
-**Cada respuesta que crea es un entorno de desarrollo y producción completamente funcional. "[Hospedar desde su editor](https://amasad.me/hosting)" facilita la iteración rápida de su trabajo, la colaboración con otros y la obtención de comentarios.**
+**Cada respuesta que crea es un entorno de desarrollo y producción completamente funcional. "[Hospedar desde su editor](https://amasad.me/hosting)" facilita la iteración rápida de su trabajo, la colaboración con otros y la obtención de comentarios..**
 
 **Sabemos que es mucho para asimilar, por lo que hemos desglosado algunas de las características clave a continuación para [desarrolladores](https://docs.replit.com/getting-started/intro-replit#developers), [nuevas empresas](https://docs.replit.com/getting-started/intro-replit#hosting), [profesores y estudiantes.](https://docs.replit.com/getting-started/intro-replit#teachers)**
 **Elige tu propio camino o recorre todos ellos para convertirte en un experto en todo lo relacionado con Replit.**
