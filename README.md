@@ -1,3 +1,5 @@
+# **PD: El User "Jennifer7w7" Soy Yo Osea: "AahhsSjsj" :)**
+
 <p align="center">Bot Tutoriales :heart: </p>
 
 # 🌐 Descargar Las Cosas Necesarias
