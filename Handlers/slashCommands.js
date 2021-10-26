@@ -21,7 +21,7 @@ module.exports = async (client) => {
         if(!command.name)
         return Table.addRow(file.split("/")[7], "🔸 FAILED", "Falta un nombre")
 
-        if(!command.description) 
+        if (command.type !== "MESSAGE" && command.type !== "USER" && !command.description)
         return Table.addRow(command.name, "🔸 FAILED", "Falta una Description")
 
         if(command.permission) {
