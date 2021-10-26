@@ -14,7 +14,7 @@ module.exports = async (client) => {
   const CommandsArray = [];
 
   (await PG(`${process.cwd()}/SlashCommands/*/*.js`)).map(async (file) => {
-    //Si Te Sale Un Error Que No Encontro La Carpeta "SlashCommands" Cambia la carpeta llamada "slashCommands" a SlashCommands para que te funcione!
+    //Si Te Sale Un Error Que No Encontro La Carpeta "SlashCommands" Cambia la carpeta llamada "slashCommands" a SlashCommands para que te funcione pD: :D
     const command = require(file);
 
     if (!command.name)
