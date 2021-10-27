@@ -1,0 +1,14 @@
+const { Client, ContextMenuInteraction } = require("discord.js"); //Esto Es Obligatorio Para Usar Las Funciones De Discord.js :)!
+
+module.exports = {
+  name: "", //Nombre Del Context Menu (Ej: name: "Nombre Del Context Menu", )
+  type: "", //Types: USER Y MESSAGE Poniendo Asi type: "USER", o type: "MESSAGE", (Ej: type: "USER", o type: "MESSAGE", ) :)
+  //permission: "SEND_MESSAGES", //revisa el Arhivo Validation/Permissions.js para ver que permisos tiene que tener el usuario para ejecutar el Context Menu
+  //o Copia Esto y pega en una nueva pestaña de tu navegador: https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/master/Validation/Permissions.js :D!
+  /**
+   * @info {Client} client
+   * @param {Client} client
+   * @param {ContextMenuInteraction} interaction
+   */
+  run: async (interaction, client) => {},
+};
