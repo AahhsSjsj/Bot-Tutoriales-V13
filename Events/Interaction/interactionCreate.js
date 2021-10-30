@@ -30,7 +30,7 @@ module.exports = {
         interaction.user.id
       );
 
-      cmd.run(interaction, client, args);
+      cmd.run(interaction, client);
     }
 
     // Handler Context Menu xD

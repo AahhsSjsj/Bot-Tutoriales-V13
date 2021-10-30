@@ -32,7 +32,7 @@ module.exports = async (client) => {
       command.type !== "USER" &&
       !command.description
     )
-      return Table.addRow(command.name, "🔸 FAILED", "Falta una Description");
+      return Table.addRow(command.name, "🔸 FAILED", "Falta una Description o Type En El Context Menu");
 
     client.Slashcommands.set(command.name, command);
     CommandsArray.push(command);
