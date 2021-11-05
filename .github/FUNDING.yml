@@ -1,2 +1,7 @@
 patreon: jenniferdonaruwu
-custom: ['https://github.com/AahhsSjsj/Bot-Tutoriales-V12', 'https://github.com/Lovebott/Bot-Discord-V13']
+custom:
+  [
+    "https://github.com/AahhsSjsj/Bot-Tutoriales-V12",
+    "https://github.com/Lovebott/Bot-Discord-V13",
+    "https://github.com/AahhsSjsj/Bot-Tutoriales-V13/tree/readmes",
+  ]
