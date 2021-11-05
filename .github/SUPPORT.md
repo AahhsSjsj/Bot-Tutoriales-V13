@@ -4,4 +4,4 @@ Solo usamos este rastreador de problemas para informes de errores y solicitud de
 
 Para preguntas generales sobre Su  Bot y su uso, utilice los canales de soporte dedicados en nuestro servidor Discord: (Eliminado Sorry)
 
-Cualquier problema que no implique directamente un error o una solicitud de función probablemente se cerrará y redirigirá.
+Cualquier problema que no implique directamente un error o una solicitud de función probablemente se cerrará y redirigirá :)!
