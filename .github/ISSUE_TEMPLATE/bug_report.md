@@ -31,6 +31,6 @@ assignees: ''
 
 <!--
 Elimine el comentario y complete el hash de confirmación si esto se aplica a usted:
-(Si bien no es un requisito probar su problema en la rama maestra, nos facilitaría mucho la solución del problema, así que hágalo si es posible).
+(Si bien no es un requisito probar su problema en la rama maestra, nos facilitaría mucho la solución del problema, así que hágalo si es posible :c).
 
 -->
