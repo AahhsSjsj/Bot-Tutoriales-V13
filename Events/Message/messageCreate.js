@@ -1,5 +1,5 @@
 const { Client, Message, MessageEmbed, Collection } = require("discord.js");
-const { prefix } = require("../../config.json");
+const prefix = process.env.PREFIX; //.env + process.env.PREFIX + PREFIX = TU_PREFIX  | ejemplo: PREFIX=TU_PREFIX :)!
 
 module.exports = {
   name: "messageCreate",

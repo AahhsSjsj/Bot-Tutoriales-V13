@@ -20,19 +20,17 @@ module.exports = async (client) => {
     if (!command.name)
       return Table.addRow(file.split("/")[7], "🔸 FAILED", "Falta un nombre");
 
-    if (!command.description)
+    if (
+      command.type !== "MESSAGE" &&
+      command.type !== "USER" &&
+      !command.description
+    )
       return Table.addRow(command.name, "🔸 FAILED", "Falta una Description");
 
     if (command.permission) {
       if (Perms.includes(command.permission)) command.defaultPermission = false;
       else return Table.addRow(command.name, "🔸 FAILED", "Permiso Invalido");
     }
-    if (
-      command.type !== "MESSAGE" &&
-      command.type !== "USER" &&
-      !command.description
-    )
-      return Table.addRow(command.name, "🔸 FAILED", "Falta una Description o Type En El Context Menu");
 
     client.Slashcommands.set(command.name, command);
     CommandsArray.push(command);
@@ -43,7 +41,8 @@ module.exports = async (client) => {
   console.log(Table.toString());
 
   client.on("ready", async () => {
-    const MailGuild = await client.guilds.cache.get("GUILD ID"); //Muy Pronto Si Tiene Apoyo Pongo hacerlo lo mismo pero global osea "await client.application.commands.set(CommandsArray)"
+    const MailGuild = await client.guilds.cache.get(process.env.GUILD_ID); //Muy Pronto Si Tiene Apoyo Pongo hacerlo lo mismo pero global osea "await client.application.commands.set(CommandsArray)"
+    //.env + process.env.GUILD_ID + GUILD_ID = ID_GUILD  | ejemplo: GUILD_ID=ID_GUILD :)!
 
     MailGuild.commands.set(CommandsArray).then(async (command) => {
       const Roles = (commandName) => {
