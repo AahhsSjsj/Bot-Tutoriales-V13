@@ -256,7 +256,7 @@ module.exports = {
                   .setTitle("SISTEMA DE WARNS")
                   .setColor("RANDOM")
                   .setDescription(
-                    `${user.user.tag} | ||${user.id}|| no tiene warns.`
+                    `**\`${user.user.tag}\` - ||${user.id}|| no tiene warns.**`
                   ),
               ],
             });
