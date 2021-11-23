@@ -1,5 +1,5 @@
 const { Client, MessageEmbed } = require("discord.js");
-const { ownerTag } = require("../../config.json");
+const { ownerTag } = require("../../Strutures/config.json");
 const mongoose = require("mongoose");
 const AsciiTable = require("ascii-table");
 
