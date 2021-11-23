@@ -8,7 +8,7 @@ module.exports = async (client) => {
   var Table = new Ascii("Eventos Cargados");
 
   await (
-    await PG(`${process.cwd()}/Events/*/*.js`)
+    await PG(`${process.cwd()}/src/Events/*/*.js`)
   ).map(async (file) => {
     const event = require(file);
 
